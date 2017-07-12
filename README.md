@@ -2,8 +2,11 @@
 Simple tutorial for icoder
 
 https://prakhar.me/docker-curriculum/ (awesome tutorial to start docker)
+
 https://www.youtube.com/watch?v=t9YuqwGYUUg (very simple explanation)
+
 https://www.youtube.com/watch?v=o4FGNWcbzVk (docker + node simple tutorial)
+
 https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b (nice explanation of docker/virtual machine)
 
 Introducing the problem
