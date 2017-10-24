@@ -42,11 +42,13 @@ Practice with docker(commands)
 - docker rm 305297d7a235 (removes some container with specific id, run docker ps -a to get an id)
 - "docker rm $(docker ps -a -q -f status=exited)" (removes all container)
 - docker run -d -P --name static-site prakhar1989/static-site (run the image, sets name for image, last one is image name, предпоследний container name)
-- docker build -t prakhar1989/catnip . (builds an image from a Dockerfile. it takes an optional tag name with -t and a location of the directory containing the Dockerfile.) 
+- docker build -t prakhar1989/catnip(here file name) . (builds an image from a Dockerfile. it takes an optional tag name with -t and a location of the directory containing the Dockerfile.) This is the same as docker build - < Dockerfile 
 - docker image (shows all images)
 - docker stop (to stop running container, can not delete running container)
-
-
+- docker image ls (show all docker images)
+- docker rmi $(docker images -q) (remove all docker images)
+- docker stop $(docker ps -a -q) (stop all containers)
+- docker rm $(docker ps -a -q) (remove all container)
 
 
 MICROSERVICES
