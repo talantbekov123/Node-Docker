@@ -55,3 +55,5 @@ MICROSERVICES
  - https://www.youtube.com/watch?v=CKL3fV5UR8w (very simple explanation of microservices) 
  - http://microservices.io/patterns/microservices.html (nice article, suggest to read)
  - https://www.youtube.com/watch?v=xUumgxZ04SM (about app scaling)
+ - https://www.youtube.com/watch?v=zs_QyRTIpDM (awesome video, clear recap what is microservices)
+ - https://medium.com/@cramirez92/build-a-nodejs-cinema-microservice-and-deploying-it-with-docker-part-1-7e28e25bfa8b (clear and nice tutorials with examples, Node + Docker, creating microservices)
